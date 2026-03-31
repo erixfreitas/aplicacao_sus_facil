@@ -1,0 +1,47 @@
+# Ambiente Python
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Streamlit
+.streamlit/
+*.streamlit/
+
+# Dados e backups
+data/dados.csv
+data/backup_*.csv
+data/*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+.cache/
+
+# Configuração local
+.env
+.env.local
+config.local.py
+
+# IDE específicas
+*.sublime-workspace
+*.sublime-project
